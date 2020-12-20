@@ -1,0 +1,27 @@
+libgladeTest -- multi-window libglade example
+Copyright (C) 2004 Adam Monsen <adamm@wazamatta.com>
+
+Try the following from the root of the source tarball:
+1) ./configure
+2) make
+3) cd src
+4) ./libgladeTest
+
+See INSTALL for boilerplate build/installation instructions.
+
+If you do 'make install', you can only run libgladeTest if you are in
+the directory where libgladeTest.glade was installed (probably
+/usr/local/share/).
+
+Comments, feedback, suggestions, and constructive criticism are highly
+appreciated! Please send any to adamm@wazamatta.com with 'libgladeTest'
+somewhere in the subject header.
+
+The latest version of this tarball should always be available here:
+http://adammonsen.com/tar_dl/LibgladeTest-CURRENT.tar.gz
+
+A code walkthrough is available here:
+http://adammonsen.com/tut/libgladeTest.html
+
+
+vim: tw=72

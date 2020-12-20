@@ -1,0 +1,40 @@
+# [% # This file (as a project template) is inside of the common directory. %]
+
+init_project.sh
+
+Makefile.in
+aclocal.m4
+autom4te.cache/
+compile
+config.h.in
+configure
+depcomp
+install-sh
+missing
+
+# These are from after you run configure and make
+Makefile
+config.h
+config.log
+config.status
+src/.deps/
+src/Makefile
+src/[% project.package_to_variable_name %]
+src/*.o
+stamp-h1
+
+doc/.dirstamp
+doc/[% project.package_to_variable_name %].info
+doc/stamp-vti
+doc/version.texi
+doc/*.info
+
+*~
+*.swp
+*.swo
+
+*.glade
+
+build
+debug
+

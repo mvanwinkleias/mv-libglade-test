@@ -1,0 +1,26 @@
+2004-07-07  Adam Monsen <adamm@wazamatta.com>
+
+  * configure.in: renamed to configure.ac to follow GNU coding standards
+  --thanks to Elijah P Newren
+  * configure.ac: removed obselete macro AM_PROG_CC_STDC --thanks to Alexander
+  Winston
+  * src/Makefile.am: s/INCLUDES/AM_CPPFLAGS/, updated version. --thanks to
+  Alexander Winston
+
+2004-07-05  Adam Monsen <adamm@wazamatta.com>
+
+  * libgladeTest.glade: Handling prefs-win delete_event (destroy triggered by
+  closing a window via window manager) with gtk_widget_hide(). Connected
+  show() and hide() methods using libglade.
+  * callbacks.c (destroy_event_cb, close_button_cb, cancel_button_cb,
+  quit_button_cb, quit_menu_cb, pref_menu_cb): Removed all callbacks that do
+  nothing but call stock functions like gtk_widget_show() and
+  gtk_widget_hide() in favor of simple libglade connections.
+  * callbacks.c (on_main_win_delete_event, on_name_entry_activate): Renamed
+  functions from delete_event_cb() and entry_activate_cb() to more descriptive
+  on_main_win_delete_event() and on_name_entry_activate().
+  * main.c: no need to include "callbacks.h"
+
+2004-06-30  Adam Monsen <adamm@wazamatta.com>
+
+  * all: Initial release.

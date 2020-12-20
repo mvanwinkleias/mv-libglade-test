@@ -1,0 +1,15 @@
+Thanks to Alexander Winston for suggestions on improving configure.ac,
+and Makefile.am by using 'autoreconf --warnings=all', and for reminding
+me to include src/libgladeTest.gladep in the table of files to include
+for re-creating a distribution with 'make distcheck'.
+
+Thanks to Elijah P Newren for recommendation to rename configure.in to
+configure.ac and for Web site comments.
+
+Thanks to Ethan Zimmerman for user interface testing and feedback.
+
+Thanks to Keith Sharp for the original public domain code
+(available here:
+  http://mail.gnome.org/archives/gnome-love/2004-June/msg00014.html)
+
+Thanks to everyone who has contributed to free software.

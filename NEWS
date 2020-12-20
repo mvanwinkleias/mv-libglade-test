@@ -1,0 +1,15 @@
+1.02 (07-JUL-2004):
+  Maintenance release. Thanks to Alexander Winston for suggestions
+
+1.01 (07-JUL-2004):
+  Maintenance release. Thanks to Elijah P Newren for suggestions
+
+1.0 (05-JUL-2004):
+  First major release. Removed many callbacks in favor of simple gtk
+  stock functions that hide and show widgets.
+
+0.02 (30-JUN-2004):
+  Rework autotools.
+
+0.01 (26-JUN-2004):
+  Initial release of libglade example.
