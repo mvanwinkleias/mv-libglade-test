@@ -21,6 +21,7 @@ src/.deps/
 src/Makefile
 src/[% project.package_to_variable_name %]
 src/*.o
+src/libgladeTest
 stamp-h1
 
 doc/.dirstamp
